@@ -32,3 +32,10 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
+
+const oneLastFilm = prompt ("Один из последних просмотренных фильмов", "");
+const filmScore = prompt ("На сколько оцените его?","");
+
+let movies = {
+    oneLastFilm: filmScore
+};
